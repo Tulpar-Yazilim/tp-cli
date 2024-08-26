@@ -1,20 +1,34 @@
 {
-  "name": "tp-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "react-native-tp-cli",
+  "version": "1.0.2",
+  "description": "ReactNative boilerplate cli",
   "main": "split.js",
   "scripts": {
     "dev": "node ./split.js"
   },
   "bin": {
-    "tp-cli": "node ./split.js"
+    "tp-cli": "./split.js"
   },
   "author": "CruzNadin",
+  "keywords": [
+    "react native",
+    "react native cli",
+    "react native boilerplate"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
     "path": "^0.12.7",
     "tp-cli": "github:Tulpar-Yazilim/tp-cli"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tulpar-Yazilim/tp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tulpar-Yazilim/tp-cli/issues"
+  },
+  "homepage": "https://github.com/Tulpar-Yazilim/tp-cli#readme"
 }
