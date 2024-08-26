@@ -2,18 +2,19 @@
   "name": "tp-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "split.js",
   "scripts": {
     "dev": "node ./split.js"
   },
   "bin": {
     "tp-cli": "node ./split.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "CruzNadin",
+  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "fs-extra": "^11.2.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "tp-cli": "github:Tulpar-Yazilim/tp-cli"
   }
 }
