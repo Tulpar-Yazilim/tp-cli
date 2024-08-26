@@ -1,0 +1,19 @@
+{
+  "name": "tp-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./split.js"
+  },
+  "bin": {
+    "tp-cli": "node ./split.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  }
+}
